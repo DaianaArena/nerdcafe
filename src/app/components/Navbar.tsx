@@ -19,15 +19,15 @@ const Links = [
   },
   {
     label: "Dashboard",
-    route: "/dashboard"
+    route: "/Dashboard"
   },
   {
     label: "Games",
-    route: "/games"
+    route: "/Games"
   },
   {
     label: "News",
-    route: "/news"
+    route: "/News"
   }  
 
 ]
