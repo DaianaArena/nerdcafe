@@ -15,5 +15,13 @@
   }
   
   .animate-float {
-    animation: float 3s ease-in-out infinite;
+    animation: float 4s ease-in-out infinite;
+  }
+
+  .main-text-color {
+    color:#F4867B!important ;
+  }
+
+  .main-bg-color {
+    background-color: #F4867B!important ;
   }
