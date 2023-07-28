@@ -40,7 +40,7 @@ export default function RootLayout({
 
       </head>
 
-      <body className="flex flex-col h-screen">
+      <body className="flex flex-col h-screen bg-gray-900">
 
         <Navbar/>
         {children}
