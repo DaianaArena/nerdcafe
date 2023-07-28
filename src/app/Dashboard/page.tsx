@@ -3,6 +3,7 @@ import { createContext } from 'react'
 import { Inter } from 'next/font/google'
 import Error404 from '../components/Error404'
 // Define the Inter font with the Latin subset
+import {FaPlay, FaPause, FaVolumeUp, FaVolumeMute} from 'react-icons/fa';
 const inter = Inter({ subsets: ['latin'] })
 import {
   PlayerProvider,
@@ -65,25 +66,21 @@ export default function Dashboard () {
                   progress={context.progress}
                 />
                 <button onClick={context.togglePlay}>
-                  {context.isPlaying ? "Pause" : "Play"}
+                  {context.isPlaying ? <FaPause/> : <FaPlay/>}
                 </button>
-                <p>{context.timestamp.current}</p>
-                <p>{context.timestamp.total}</p>
-                <button onClick={context.increaseVolume}>+1</button>
-                <button onClick={context.decreaseVolume}>-1</button>
                 <VolumeSlider
                   onChange={context.onSliderVolumeChange}
                   volume={context.volume}
                 />
                 <button onClick={context.toggleMute}>
-                  {context.mute.state == "muted" ? "Unmute" : "Mute"}
+                  {context.mute.state == "muted" ?  <FaVolumeMute/> : <FaVolumeUp/> }
                 </button>
               </div>
             );
           }}
         </Player>
       </PlayerProvider>
-      <button onClick={changeSrc}>Change src</button>
+      
     </div>
           
           
