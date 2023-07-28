@@ -14,7 +14,8 @@ interface AudioplayerProps {
     src: string; 
   }
 
-function Audioplayer(props) {  
+
+  function Audioplayer(props: AudioplayerProps) {  
   return (
     <div className="w-1/2  my-4 p-2 shadow-xl ring-1 ring-zinc-900 ring-opacity-10 rounded-md bg-custom-gray">
       <PlayerProvider
