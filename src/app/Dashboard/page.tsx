@@ -1,3 +1,5 @@
+'use client'
+import { createContext } from 'react'
 import { Inter } from 'next/font/google'
 import Error404 from '../components/Error404'
 // Define the Inter font with the Latin subset
@@ -8,7 +10,7 @@ export default function Dashboard () {
  
   //<Error404/>
  
-
+  
   
 
   return (
@@ -25,6 +27,7 @@ export default function Dashboard () {
         <div className="flex-1 h-full bg-green-400">
           a
 
+          
         </div>
       </div>    
     
