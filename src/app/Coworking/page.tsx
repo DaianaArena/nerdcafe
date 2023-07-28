@@ -2,7 +2,7 @@ import { Inter } from 'next/font/google'
 import Error404 from '../components/Error404'
 // Define the Inter font with the Latin subset
 const inter = Inter({ subsets: ['latin'] })
-import {FaPlay, FaPause, FaVolumeUp, FaVolumeMute} from 'react-icons/fa';
+import {FaPlay, FaDiscord} from 'react-icons/fa';
 
 
 export default function Coworking () {
@@ -17,11 +17,6 @@ export default function Coworking () {
       description:
         "The shared atmosphere is conducive to maintaining high levels of motivation and concentration. ",
         icon: FaPlay,
-    },
-    {
-      name: 'Reduced distractions.',
-      description: "The presence of other people working on their projects can inspire and create a sense of responsibility.",
-      icon: FaPlay,
     },
     {
       name: 'Networking opportunities.',
@@ -52,6 +47,16 @@ export default function Coworking () {
                   </div>
                 ))}
               </dl>
+              <a
+                href="https://discord.gg/sTEWa4te"
+                className="inline-block rounded-md border border-transparent main-bg-color px-8 py-3 text-center font-medium text-white mt-8"
+              >
+                
+                <FaDiscord className="inline-block mr-3"/>
+                Join Now
+                
+                
+              </a>
             </div>
           </div>
           <img

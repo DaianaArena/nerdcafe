@@ -31,11 +31,11 @@ export default function Dashboard () {
         <div className="flex-1  flex flex-col justify-center items-end h-full ">
           
 
-          <Audioplayer   src={"https://audioplayer.madza.dev/Madza-Chords_of_Life.mp3"} name={"Rain sound"}/>
+          <Audioplayer   src={"http://arenadistribuidora.com/wp-content/uploads/2023/07/rain-sound-on-window-with-thunder-soundsiheavy-rain-for-sleep-study-and-relaxation-meditation.mp3"} name={"Rain sound"}/>
           
-          <Audioplayer src={"https://audioplayer.madza.dev/Madza-Chords_of_Life.mp3"} name={"Coffee shop sound"}/>
+          <Audioplayer src={"http://arenadistribuidora.com/wp-content/uploads/2023/07/coffee-shop-sounds-for-study-and-concentration.mp3"} name={"Coffee shop sound"}/>
           
-          <Audioplayer src={"https://audioplayer.madza.dev/Madza-Chords_of_Life.mp3"} name={"Fireplace sound"}/>
+          <Audioplayer src={"http://arenadistribuidora.com/wp-content/uploads/2023/07/burning-fireplace-and-crackling-fire-sounds-no-music.mp3"} name={"Fireplace sound"}/>
           
           
         </div>
