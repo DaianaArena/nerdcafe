@@ -43,13 +43,14 @@ const callouts  = [
               <div key={callout.name} className="group relative">
                 <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
                   <img
+                  
                     src={callout.imageSrc}
                     alt={callout.imageAlt}
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
                 <h3 className="text-base font-semibold text-white mt-6 ">
-                  <a href={callout.href}>
+                  <a target="_blank" href={callout.href}>
                     <span className="absolute inset-0" />
                     {callout.name}
                   </a>
