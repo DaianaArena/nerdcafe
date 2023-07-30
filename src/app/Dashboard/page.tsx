@@ -20,7 +20,7 @@ export default function Dashboard () {
   return (
     <>
     
-    <div className="flex-1 flex justify-center items-center w-full relative overflow-hidden mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8 ">
+    <div className="flex-1 flex justify-center items-center w-full relative overflow-hidden mx-auto  px-4 sm:static sm:px-6 lg:px-8 ">
 
       <div className="flex w-full h-full justify-center items-center " >
 
