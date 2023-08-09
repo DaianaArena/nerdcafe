@@ -17,7 +17,7 @@ interface AudioplayerProps {
 
   function Audioplayer(props: AudioplayerProps) {  
   return (
-    <div className="w-1/2  my-4 p-2 shadow-xl ring-1 ring-zinc-900 ring-opacity-10 rounded-md bg-custom-gray">
+    <div className="w-full  md:w-2/3  xl:w-1/2  my-4 p-2 shadow-xl ring-1 ring-zinc-900 ring-opacity-10 rounded-md bg-custom-gray">
       <PlayerProvider
         src={props.src}
         loop={true}
@@ -38,11 +38,11 @@ interface AudioplayerProps {
                   />
                 </div>
 
-                <div className="w-full flex-col sm:flex-row gap-y-2 sm:gap-y-0 items-start justify-between flex mt-2 sm:items-center">
+                <div className="w-full  flex-col lg:flex-row gap-y-2 lg:gap-y-0 items-center lg:items-start justify-between flex mt-2 sm:items-center">
                   <div className='flex items-center'>
 
                     <div className='ml-2'>
-                      <p className='font-semibold w-40 text-white'>{props.name}</p>
+                      <p className='font-semibold w-40 text-white text-center lg:text-left'>{props.name}</p>
                     </div>
                   </div>
 

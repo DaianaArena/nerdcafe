@@ -1,8 +1,33 @@
-<p align="center"><img src="https://i.imgur.com/nmxJmbR.png" width="400"></p>
+<p align="center"><img src="https://i.imgur.com/DJIZrwR.png" width="400"></p>
 <p align="center"> <a href="https://nextjs.org/" target="_blank" rel="noreferrer" > <img src="https://www.ambient-it.net/wp-content/uploads/2022/02/Logo-formation-nextjs-200x175-1.png" alt="nextjs" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
-This is my personal Next.js+Typescript+Tailwind boilerplate. Feel free to use it if you like it!
 
-Please visit my [Linkedin](https://www.linkedin.com/in/arenadaiana/) to say thanks 	:grin: remember it helps me a lot ♥
+# Welcome to NERD CAFÉ! 
+Hey there, fellow adventurers and kindred spirits! Welcome to Nerd CAFÉ, where we invite you to immerse yourself in a world of cozy enchantment that only a warm and welcoming haven can provide.
+
+## Let's Share a Cup of Coziness
+Join us on a journey that celebrates everything snug and delightful. At Nerd CAFÉ, we're all about curating an experience that combines your love for all things nerdy with the heartwarming embrace of a comforting space.
+
+## Our Cozy Nook
+Picture this: a sanctuary where your favorite fandoms coexist with the softest cushions and the most heartening ambiance. Nerd CAFÉ isn't just a place—it's a state of mind where you're free to be your most authentic self.
+
+## Features to Cherish
+- Geeky Gatherings: Dive into themed environments that whisk you away to your cherished fictional worlds. Whether it's fantasy, sci-fi, or anything in between, you'll find a nook that resonates with your nerdy heart.
+
+- Custom Delights: Tailor your experience to match your unique preferences. Adjust sounds, voices and even the background playlist to create a cozy corner that's as individual as you are.
+
+- Intuitive Exploration: Our haven is designed with your comfort in mind. Wander through each space with ease, relishing in the details that make each theme come alive.
+
+- Gaming Galore: Venture into our gaming section, where you can engage in your favorite virtual quests. I'm a big fan of retro classics but you can also find reversions of the latest popular releases.
+
+- Nerdy News: Stay in the loop with our news section, where we curate the latest updates. From movie releases to book announcements, you'll always be up-to-date.
+
+- Community Connection: Immerse yourself in our vibrant Discord co-working community. Join fellow creatives, enthusiasts, and adventurers in a cozy virtual space where ideas flow, friendships form, and collaborations flourish.
+
+
+## My personal Next.js+Typescript+Tailwind boilerplate
+
+This project was created from [my personal Next.js+Typescript+Tailwind boilerplate](https://github.com/DaianaArena/react-zoho-widget-boilerplate). Feel free to use it if you like it! If you do, please visit my [Linkedin](https://www.linkedin.com/in/arenadaiana/) to say thanks 	:grin: remember it helps me a lot ♥
+
 
 ## Before Installation - System Requirements
 
@@ -12,26 +37,6 @@ Make sure your development environment meets the following requirements:
  - MacOS, Windows (including WSL), and Linux are supported.
 
 **_Note:_** While the pages directory requires Node.js v14 or later, the app directory requires Node v16.8.0 or later.
-
-## New features! Clone this repository from the template
-
-Now you can create new repositories based on this project by clicking on the "Use this template" button at the top of this repository page or by [clicking here.](https://github.com/DaianaArena/reactjs-nextjs-tailwind-boilerplate/generate)
-
-### How to clone this repository from the template:
-
-1. Give your new repository a name and description.
-2. Choose the owner for the new repository.
-3. Click "Create repository from template".
-
-### Once you have created your new repository from the template, you can clone it to your local machine using the following steps:
-
-1. Copy the URL of your new repository.
-2. Open your terminal or Git Bash.
-3. Navigate to the directory where you want to clone the repository.
-4. Run the following command: git clone <repository-url> (replace <repository-url> with the URL you copied in step 1).
-5. Press enter and the repository will be cloned to your local machine.
-
-**_That's it! You now have a local copy of the repository and can start working on it._**
 
 ## Getting Started
 
@@ -87,9 +92,13 @@ If you need to learn more about typescript don't forget to [visit their document
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The way I deployed my portfolio was by using [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out  [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+# Let's Dive In!
+Prepare to embark on a cozy quest like no other. Here at Nerd CAFÉ, we've brewed up an experience that's equal parts love and adventure. So grab a warm mug, settle in, and let the soothing ambiance and geeky charm sweep you off your feet.
+
+Let's Begin the Adventure!!
 
 

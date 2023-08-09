@@ -55,7 +55,7 @@ const callouts  = [
                     {callout.name}
                   </a>
                 </h3>
-                <p className="text-sm text-gray-500">{callout.description}</p>
+                <p className="text-sm text-gray-500 lg:mb-8">{callout.description}</p>
               </div>
             ))}
           </div>

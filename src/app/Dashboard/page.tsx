@@ -13,22 +13,21 @@ import Audioplayer from '../components/Audioplayer';
 export default function Dashboard () {
  
  
-  //<Error404/>
  
-  
+  //overflow-hidden
 
   return (
     <>
     
-    <div className="flex-1 flex justify-center items-center w-full relative overflow-hidden mx-auto  px-4 sm:static sm:px-6 lg:px-8 ">
+    <div className="flex-1 flex justify-center items-center w-full relative  mx-auto  px-4 sm:static sm:px-6 lg:px-8  ">
 
-      <div className="flex w-full h-full justify-center items-center " >
+      <div className="flex flex-col  w-full h-full justify-center items-center  lg:flex-row" >
 
-        <div className=" w-80">
+        <div className=" w-80 my-4 md:my-10">
           <iframe className="px-4 sm:static sm:px-6 lg:px-8" src="https://open.spotify.com/embed/playlist/1tVd8oXBghV0IjtJHX0wSv?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0"  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
         </div> 
 
-        <div className="flex-1  flex flex-col justify-center items-end h-full ">
+        <div className="flex-1  w-72 flex flex-col justify-center items-end h-full lg:w-80 ">
           
 
           <Audioplayer   src={"http://arenadistribuidora.com/wp-content/uploads/2023/07/rain-sound-on-window-with-thunder-soundsiheavy-rain-for-sleep-study-and-relaxation-meditation.mp3"} name={"Rain sound"}/>
@@ -48,16 +47,3 @@ export default function Dashboard () {
    
   )
 }
-/*
-
-<div className="w-32 flex max-w-lg mt-10 justify-center items-center">
-                <VolumeSlider
-                  onChange={context.onSliderVolumeChange}
-                  volume={context.volume}
-                />
-                <button onClick={context.toggleMute}>
-                  {context.mute.state == "muted" ?  <FaVolumeMute/> : <FaVolumeUp/> }
-                </button>
-              </div>
-
-*/
