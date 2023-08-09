@@ -17,7 +17,7 @@ interface AudioplayerProps {
 
   function Audioplayer(props: AudioplayerProps) {  
   return (
-    <div className="w-full  md:w-2/3  xl:w-1/2  my-4 p-2 shadow-xl ring-1 ring-zinc-900 ring-opacity-10 rounded-md bg-custom-gray">
+    <div className="w-full   my-4 p-2 shadow-xl ring-1 ring-zinc-900 ring-opacity-10 rounded-md bg-custom-gray lg:w-2/3  xl:w-1/2 ">
       <PlayerProvider
         src={props.src}
         loop={true}
