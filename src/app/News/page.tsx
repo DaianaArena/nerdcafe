@@ -23,7 +23,16 @@ export default async function News () {
   const data = await getData()
   const news = data.articles
    
- 
+  type Article = {
+    source: {
+      id: string;
+    };
+    title: string;
+    description: string;
+    urlToImage:string;
+    url:string;
+
+  };
 
   if (data.status == 'error') {
     return (
@@ -40,7 +49,10 @@ export default async function News () {
           <h2 className="text-2xl font-bold main-text-color">NerdieNews</h2>
 
           <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
-            {news.map((article) => (
+            {
+            
+            
+            news.map((article: Article) => (
               <div key={article.source.id} className="group relative">
                 <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
                   <img
