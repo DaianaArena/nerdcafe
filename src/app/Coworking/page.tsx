@@ -49,7 +49,7 @@ export default function Coworking () {
               </dl>
               <a
               target="_blank"
-                href="https://discord.gg/sTEWa4te"
+                href="https://discord.gg/SE9gmvcNJc"
                 className="inline-block rounded-md border border-transparent main-bg-color px-8 py-3 text-center font-medium text-white mt-8"
               >
                 
